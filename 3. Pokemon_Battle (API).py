@@ -141,10 +141,10 @@ def hasil():
 
                 return render_template('profilepokemon.html', a1=nama, a2=nama2, zz=aa,  e=foto2, f=foto1, p=hasilpred, prob=maxproba)
 
-        except():
+        except:
             return redirect(url_for('error'))
 
-    except():
+    except:
         return redirect(url_for('error'))
 
 
